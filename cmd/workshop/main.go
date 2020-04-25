@@ -58,5 +58,4 @@ func main() {
 
 	err = <-done
 	log.Printf("shutting server down with %v", err)
-
 }
